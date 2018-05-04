@@ -1,5 +1,13 @@
 <% provide(:title,"Home") %> 
-<h1>Sample app </h1>
-<p>
-  <a href = "#"> This is the home page for rails application</a> by Michael Hartl  
-</p>
+
+
+<div class="row">
+
+  <div class="jumbotron text-center">
+    <h1>Sample app </h1>
+    <p>
+      <a href = "#"> This is the home page for rails application</a> by Michael Hartl  
+    </p>
+    <%= link_to "Sign up",signup_path, class: "btn btn-primary" %>
+  </div>
+</div>

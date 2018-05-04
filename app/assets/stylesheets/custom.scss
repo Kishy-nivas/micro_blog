@@ -1,0 +1,31 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+.navbar{
+	margin-bottom:0;
+	background-color: #3399ff;
+	border:0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+}
+
+.navbar li a,.navbar.navbar-header a{
+	color:#ffffff !important;
+}
+
+#logo{
+	color: #ffffff !important;
+	font-style:Monospace;
+}
+.navbar li.active a {
+	color: #fff !important;
+	background-color:#29292c !important;
+}
+
+.jumbotron{
+	margin-top:20px;
+	background-color: #29292c !important;
+	color: #ffffff !important;
+}
